@@ -1,0 +1,5 @@
+file2 line-1
+file2 line-2
+file2 line-3
+file2 line-4
+file1 line-3 (middle line of file-1)

@@ -16,6 +16,6 @@ file2.close()
 for dept_id, salaries in dept_emp.items():
     if len(salaries)>0:  
         avg_salary = sum(salaries) / len(salaries)
-        print(f"Department ID: {dept_id}, Average Salary: {avg_salary:.2f}")
+        print("Department ID: ", dept_id , "-- Average Salary: ",round(avg_salary,2))
     else:
-        print(f"Department ID: {dept_id}, No employees.")
+        print("Department ID: ",dept_id, "-- No employees.")
