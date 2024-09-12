@@ -10,4 +10,6 @@ print(dict1)
 
 
 key = input("Enter Name: ")
-print(dict1[key])
+print(dict1.get(key,"Do not exist"))
+
+
