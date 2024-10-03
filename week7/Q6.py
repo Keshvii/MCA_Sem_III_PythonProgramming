@@ -1,6 +1,7 @@
 try:
     with open("file1.txt", "r") as f1, open("file2.txt", "r") as f2:
-        f1_lines = f1.readlines()
+        
+	f1_lines = f1.readlines()
         f2_lines = f2.readlines()
 
     f1midline = f1_lines[len(f1_lines) // 2]
@@ -27,5 +28,5 @@ try:
         
 
 except:
-    print("file/s do not exist.")
+    print("file/files do not exist.")
 
