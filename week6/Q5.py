@@ -1,5 +1,5 @@
 print("Enter Name, RollNo., Marks of Students")
-f = open('Marks.data','w+')
+f = open('Marks.data','r')
 while(1):
     name = input("Enter name: ")
     rollNo = input("Enter RollNo.: ")
@@ -11,7 +11,7 @@ while(1):
     if(q=='Y' or q=='y'):
         break
 #print(f.tell())
-#f.seek(0)
+f.seek(0)
 #print(f.tell())
 lines = f.readlines()
 print(lines)
