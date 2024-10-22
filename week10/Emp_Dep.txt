@@ -1,0 +1,7 @@
+Emp1 E101 20000 D101 Agriculture Delhi
+Emp2 E102 30000 D102 Finance Mumbai
+Emp3 E103 50000 D103 Information-Technology Bangalore
+Emp4 E104 40000 D101 Agriculture Delhi
+Emp5 E105 60000 D102 Finance Mumbai
+Emp6 E106 25000 D103 Information-Technology Bangalore
+Emp7 E107 55000 D103 Information-Technology Bangalore

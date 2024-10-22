@@ -6,7 +6,7 @@ dig = []
 for c in s:
     if c.isdigit():
         dig.append(c)
-    else:
+    if c.isalpha():
         alph.append(c)
 
 print(alph)
